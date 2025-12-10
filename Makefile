@@ -8,3 +8,5 @@ build:
 
 clean:
     @echo: "Limpando artefatos (simulado)..."
+
+# Nota: alvo build simula a compilação HDL.
