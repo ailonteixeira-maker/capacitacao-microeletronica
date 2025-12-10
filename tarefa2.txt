@@ -1,0 +1,108 @@
+TAREFA
+Unidade 1 | Capítulo 2
+
+Prática Básica:
+
+Uso básico do Git para
+versionamento de projetos HDL
+
+Prof.: Davi Leão
+
+TAREFA
+
+2
+
+Unidade 1
+Capítulo 2
+Objetivo: Aplicar na prática os conceitos de gerenciamento de pacotes,
+variáveis de ambiente, análise de logs, criação de Makefiles e uso básico
+do Git para versionamento de projetos HDL, de forma integrada em um
+pequeno exercício.
+
+Enunciado:
+Você deverá realizar uma série de tarefas no ambiente Linux que simulam
+situações reais do desenvolvimento de projetos em HDL. O objetivo é praticar:
+• Instalação e gerenciamento de pacotes usando apt ou yum;
+• Criação e configuração de variáveis de ambiente em arquivos de
+shell (.bashrc e .profile);
+• Manipulação e leitura de arquivos de log para diagnosticar erros
+comuns;
+• Criação de um Makefile simples para automatizar a compilação de
+um módulo HDL;
+• Uso básico do Git para versionar o projeto criado.
+O resultado final será um relatório único descrevendo e comprovando cada etapa
+com capturas de tela ou comandos utilizados.
+
+Instruções:
+1. Preparação do ambiente
+• Abra um terminal Linux (máquina física, VM ou WSL).
+• Garanta que possui permissões de administrador (sudo).
+
+2. Gerenciamento de pacotes (apt/yum)
+• Instale um pacote simples (por exemplo, htop ou git) usando apt ou
+yum.
+• Liste os pacotes instalados e remova um pacote de teste.
+• Tire uma captura de tela dos comandos usados.
+
+TAREFA
+
+3
+
+3. Variáveis de ambiente e configuração de shells
+• Crie uma variável de ambiente temporária chamada PROJETO_HDL
+com o valor Aluno_Nome.
+• Edite seu .bashrc para tornar essa variável permanente.
+• Adicione um alias personalizado, por exemplo: alias
+compilarhdl='make'.
+• Recarregue as configurações e mostre que as variáveis estão ativas
+(echo $PROJETO_HDL).
+
+4. Manipulação de logs e debugging
+• Acesse um arquivo de log no /var/log (ex.: syslog ou messages).
+• Use grep para filtrar uma palavra-chave (ex.: “error”).
+• Registre no relatório os comandos e os resultados encontrados.
+
+5. Makefile
+• Crie um arquivo Makefile simples que compile um módulo HDL
+(pode ser apenas um comando “echo Compilando HDL...” para fins
+de teste).
+• Execute make para verificar se funciona.
+• Tire uma captura de tela do resultado.
+
+6. Uso básico do Git
+• Inicialize um repositório Git no diretório do projeto.
+• Faça pelo menos dois commits (por exemplo: “Primeiro commit” e
+“Adição do Makefile”).
+• Se possível, publique no GitHub ou GitLab (opcional).
+• Tire uma captura de tela do git log.
+
+7. Relatório final
+O relatório da atividade deve conter, obrigatoriamente:
+
+TAREFA
+
+4
+Introdução – contextualize o experimento, explicando brevemente a
+importância do Linux e dos comandos básicos para administração e
+automação de tarefas.
+Objetivos – descreva de forma clara os objetivos desta prática.
+Materiais/Software Utilizados – cite o sistema Linux, terminal e
+editores usados.
+Resultados e Discussões – insira prints dos comandos e saídas, com
+comentários sobre o que foi feito e observado.
+Conclusão – apresente um resumo das principais observações da
+atividade e o que foi aprendido.
+Referências Bibliográficas – cite fontes utilizadas, se houver.
+• Compile tudo em um único arquivo PDF com as capturas de tela e
+comandos utilizados.
+• Use o padrão de nome do arquivo:
+U1C2O3T1_Tarefa_NomeAluno.pdf.
+
+Suportes:
+• Documentação do apt: https://wiki.debian.org/apt
+
+• Documentação do yum/dnf: https://docs.fedoraproject.org/en-
+US/quick-docs/
+
+• Guia Makefile simples: https://makefiletutorial.com
+• Pro Git – Livro oficial: https://git-scm.com/book/pt-br/v2relatório
