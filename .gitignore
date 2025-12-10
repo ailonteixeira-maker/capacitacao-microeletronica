@@ -1,0 +1,81 @@
+# Arquivos temporários e de backup
+*~
+*.bak
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Arquivos de simulação SPICE
+*.log
+*.raw
+*.net
+*.psfxl
+
+# LTspice
+*.plt
+*.fft
+*.step
+
+# KiCad
+*.kicad_prl
+*-bak
+*.bck
+fp-info-cache
+*.kicad_pcb-bak
+*.sch-bak
+
+# Eagle
+*.s#*
+*.b#*
+*.l#*
+
+# Altium
+*.PcbDocPreview
+*.SchDocPreview
+History/
+__Previews/
+
+# Cadence
+*.log.*
+*.cmd
+*.history
+
+# Compilados e binários
+*.o
+*.so
+*.exe
+*.out
+*.bin
+*.hex
+*.elf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.lot
+*.lof
+*.out
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-*
+
+# Build directories
+build/
+dist/
+output/
